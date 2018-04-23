@@ -2006,17 +2006,19 @@ body {
 .cid-qOdCkiZkV0 P {
   text-align: left;
 }
-.cid-qOS7iR9dqT {
-  background-image: url("../../../assets/images/background4.jpg");
-}
 .cid-qPF8QirJla {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/art-art-1440x900.jpg");
+  background-image: url("../../../assets/images/art-class-1576x1051.jpg");
+}
+.cid-qPF8QirJla .media-container-row {
+  flex-direction: row-reverse;
 }
 @media (min-width: 992px) {
   .cid-qPF8QirJla .mbr-figure {
     padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
   }
 }
 @media (max-width: 991px) {
@@ -2031,11 +2033,14 @@ body {
 }
 .cid-qPF8QirJla .mbr-text,
 .cid-qPF8QirJla .mbr-section-btn {
-  color: #232323;
+  color: #ffffff;
   text-align: right;
 }
 .cid-qPF8QirJla H1 {
-  color: #005cff;
+  color: #f93103;
+}
+.cid-qOS7iR9dqT {
+  background-image: url("../../../assets/images/background4.jpg");
 }
 .cid-qPzdv0LrVR {
   background-image: url("../../../assets/images/img-7939-2000x1333.jpg");
@@ -2081,6 +2086,73 @@ body {
 .cid-qPzdv0LrVR .mbr-section-btn,
 .cid-qPzdv0LrVR .form-inline {
   color: #ffffff;
+}
+.cid-qPzdv0LrVR .mbr-text,
+.cid-qPzdv0LrVR .mbr-section-btn,
+.cid-qPzdv0LrVR .form-inline I {
+  color: #ff0000;
+}
+.cid-qPWPV9gCfg {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #7d959b;
+}
+.cid-qPWPV9gCfg .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-qPWPV9gCfg .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-qPWPV9gCfg .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-qPWPV9gCfg .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-qPWPV9gCfg .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-qPWPV9gCfg .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-qPWPV9gCfg .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-qPWPV9gCfg .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-qPWPV9gCfg .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
 }
 .cid-qOdapVFV4a {
   padding-top: 60px;
@@ -2539,7 +2611,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qPzojEoohQ {
-  background-image: url("../../../assets/images/stuff-1920x1080.jpg");
+  background-image: url("../../../assets/images/typography-project-2-1051x1576.jpg");
 }
 .cid-qPzojEoohQ h1 {
   color: #616161;
